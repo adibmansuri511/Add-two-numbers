@@ -1,18 +1,19 @@
-const calculate = () => {
+const addition = () => {
 
-    // Get base value from input
-    let base = Number(document.getElementById("base").value);
+    // Get first value from input
+    let firstValue = Number(document.getElementById("firstValue").value);
 
-    // Get height value from input
-    let height = Number(document.getElementById("height").value);
+    // Get second value from input
+    let secondValue = Number(document.getElementById("secondValue").value);
 
-    let triangleArea = Math.ceil(((1 / 2) * base * height));
+    // Operation Perform
+    let addition = firstValue + secondValue;
 
-    triangleArea = `The area of the triangle is: ${triangleArea}`;
+    addition = `The sum of ${firstValue} and ${secondValue} is : ${addition}`;
 
-    console.log(triangleArea);
+    console.log(addition);
 
-    document.querySelector("#h4").innerHTML = triangleArea;
+    document.querySelector("#h4").innerHTML = addition;
 
     return;
 }
