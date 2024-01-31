@@ -1,2 +1,2 @@
-# add-two-numbers
- Practice Example
+# Add-two-numbers
+JavaScript Practice Example.
